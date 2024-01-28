@@ -39,6 +39,7 @@ let Strawberry: Sprite = null
 let Apple: Sprite = null
 let projectile: Sprite = null
 let mySprite: Sprite = null
+story.printText(":)", 0, 0)
 effects.starField.startScreenEffect()
 mySprite = sprites.create(img`
     . . . . . . . c d . . . . . . . 
